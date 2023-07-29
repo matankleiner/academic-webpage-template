@@ -1,0 +1,544 @@
+<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+
+<!doctype html>
+<html>
+<head>
+	<title>Webpage Template</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  	<link href="style_green.css" rel="stylesheet" type="text/css">
+	<meta property="og:image" content="resources/teaser.png"/> 
+	<meta property="og:title" content="Webpage Template" />
+	<meta property="og:description" content="Paper description." />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<script src="https://kit.fontawesome.com/ad96f96272.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	
+	<!-- navigation bar on the top -->
+	<nav id="navbar_top" class="navbar sticky-top navbar-expand-lg navbar-dark bg-success" style="margin-bottom: 15px;">
+		<div class="container">
+				<a class="navbar-brand" href="">Nav Bar Name</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="main_nav">
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item"><a class="nav-link" href="#images">Images</a></li>
+				<li class="nav-item"><a class="nav-link" href="#audio">Audio</a></li>
+				<li class="nav-item"><a class="nav-link" href="#video">Video</a></li>
+				<li class="nav-item"><a class="nav-link" href="#paper">Paper</a></li>
+			</ul>
+			</div> 
+		</div> 
+		</nav>
+
+	<div class="container-xl"> 
+		<!-- top button -->
+		<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+			<i class="fas fa-arrow-up"></i>
+		</button>
+
+		<!-- top - author names, affiliation and links -->
+		<center>
+			<h1>Paper Name</h1>
+			<h4>Published in</h4>
+			<div class="container">
+				<div class="row justify-content-md-center">
+					<div class="col-md-auto">
+						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Author 1</a></span>
+					</div>
+					<div class="col-md-auto">
+						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Author 2</a></span>
+					</div>
+					<div class="col-md-auto">
+						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Author 3</a></span>
+					</div>
+					<div class="col-md-auto">
+						<span style="font-size:24px"><a href="https://thispersondoesnotexist.com/" target="_blank" rel="noopener noreferrer">Author 4</a></span>
+					</div>
+				</div>
+			</div>
+
+			<p class="text-center affilation" style="font-size: 20pt;">Affiliation<p>
+
+			<div class="container">
+				<div class="row justify-content-md-center">
+					<div class="col-md-auto">
+						<span style="font-size:24px"><a href='resources/paper.pdf' target="_blank" rel="noopener noreferrer">[<i class="fas fa-file-pdf"></i> Paper]</a></span>
+					</div>
+					<div class="col-md-auto">
+						<span style="font-size:24px"><a href='resources/supp.pdf' target="_blank" rel="noopener noreferrer">[<i class="fas fa-file-pdf"></i> Supplementary]</a></span>
+					</div>
+					<div class="col-md-auto">
+						<span style="font-size:24px"><a href="https://github.com/" target="_blank" rel="noopener noreferrer">[<i class="fab fa-github"></i> Code]</a></span>
+					</div>
+				</div>
+			</div>
+		</center>
+
+		<!-- abstract and teaser image-->
+		<center>
+			<div class="container" style="margin-top: 20px;">
+				<div class="row justify-content-md-center">
+					<p  style="font-size:18px;"><strong>Teaser Image</strong></p>
+				</div>
+				<div class="row justify-content-md-center">
+					<img alt="" id="teaser" src="./resources/teaser.png" style="max-width: 375px;"/>
+				</div>
+			</div>
+		<h1 style="margin-top: 10px;">Abstract</h1>
+		</center>
+		<p>
+			An abstract which describe the paper's contributions and importance in few short sentences. 
+		</p>
+
+		<!-- video of a talk about your paper -->
+		<center><h1>Talk</h1></center>
+		<p align="center">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/ly36kn0ug4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>		</p>
+
+		<!-- Images -->
+		<hr id="images">
+		<center><h1 style="margin-top: 65px;">Some Images Demonstrating Your Paper</h1></center>
+		<!-- text guided style with retarget-->
+		<p>Some explanation about the displayed images.<br>They can either be static</p>
+		
+		<center>
+			<div class="container">
+				<div class="row justify-content-md-center">
+					<div class="col-md-auto" style="padding: 1px;">
+						<img alt="" src="./resources/image1.png" style="max-width: 375px;"/>
+					</div>
+					<div class="col-md-auto" style="padding: 1px;">
+						<img alt="" src="./resources/image2.png" style="max-width: 375px;"/>
+					</div>
+				</div>
+			</div>
+		</center>
+
+		<!-- Images with drop down menu -->
+		<div class="container">
+			<p  style="margin-top: 35px;">
+			Or can be chosen from a dropdown menu, for some easy comparison between different methods for example. 
+			</p>
+		</div>
+
+		<!-- dropdown -->
+		<center>
+		<div class="container">
+			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-3">
+				<div class="col">
+					<img alt="" id="dropdown1" class="round" src="./resources/dropdown/dropdown1/1.png" width="100%" style="padding-right: 2%; max-width:250px;"/>
+					<div class="btn-group my-btn" id="myDropdown">
+						<button type="button" onclick="document.getElementById('dropdown1').src='./resources/dropdown/dropdown1/1.png'" class="btn btn-success">Dropdown</button>
+						<button type="button" class="btn my-btn-success btn-success dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+							<span class="visually-hidden">Toggle Dropdown</span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" onclick="document.getElementById('dropdown1').src='./resources/dropdown/dropdown1/2.png'">2</a></li>
+							<li><a class="dropdown-item" onclick="document.getElementById('dropdown1').src='./resources/dropdown/dropdown1/3.png'">3</a></li>
+							<li><a class="dropdown-item" onclick="document.getElementById('dropdown1').src='./resources/dropdown/dropdown1/4.png'">4</a></li>
+							<li><hr class="dropdown-divider"></li> 
+							<li><a class="dropdown-item" onclick="document.getElementById('dropdown1').src='./resources/dropdown/dropdown1/1.png'">1</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col">
+					<img alt="" id="dropdown2" class="round" src="./resources/dropdown/dropdown2/1.png" width="100%" style="padding-right: 2%; max-width:250px;"/>
+					<div class="btn-group my-btn" id="myDropdown">
+						<button type="button" onclick="document.getElementById('dropdown2').src='./resources/dropdown/dropdown2/1.png'" class="btn btn-success">Dropdown</button>
+						<button type="button" class="btn my-btn-success btn-success dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+							<span class="visually-hidden">Toggle Dropdown</span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" onclick="document.getElementById('dropdown2').src='./resources/dropdown/dropdown2/2.png'">2</a></li>
+							<li><a class="dropdown-item" onclick="document.getElementById('dropdown2').src='./resources/dropdown/dropdown2/3.png'">3</a></li>
+							<li><a class="dropdown-item" onclick="document.getElementById('dropdown2').src='./resources/dropdown/dropdown2/4.png'">4</a></li>
+							<li><hr class="dropdown-divider"></li> 
+							<li><a class="dropdown-item" onclick="document.getElementById('dropdown2').src='./resources/dropdown/dropdown2/1.png'">1</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col">
+					<img alt="" id="dropdown3" class="round" src="./resources/dropdown/dropdown3/1.png" width="100%" style="padding-right: 2%; max-width:250px;"/>
+					<div class="btn-group my-btn" id="myDropdown">
+						<button type="button" onclick="document.getElementById('dropdown3').src='./resources/dropdown/dropdown3/1.png'" class="btn btn-success">Dropdown</button>
+						<button type="button" class="btn my-btn-success btn-success dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+							<span class="visually-hidden">Toggle Dropdown</span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" onclick="document.getElementById('dropdown3').src='./resources/dropdown/dropdown3/2.png'">2</a></li>
+							<li><a class="dropdown-item" onclick="document.getElementById('dropdown3').src='./resources/dropdown/dropdown3/3.png'">3</a></li>
+							<li><a class="dropdown-item" onclick="document.getElementById('dropdown3').src='./resources/dropdown/dropdown3/4.png'">4</a></li>
+							<li><hr class="dropdown-divider"></li> 
+							<li><a class="dropdown-item" onclick="document.getElementById('dropdown3').src='./resources/dropdown/dropdown3/1.png'">1</a></li>
+						</ul>
+					</div>
+				</div>
+		</div>
+		</center>
+
+		<!-- image carousel -->
+		<div class="container">
+			<p  style="margin-top: 35px;">
+			Fading into each other automatically, or can be switched using arrows 
+			</p>
+		</div>
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-sm" style="max-width: 550px;">
+					<center>
+						<div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+							<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class="d-block" width="100%" src="./resources/carousel/1.jpg" style="max-width: 400px;">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block" width="100%" src="./resources/carousel/2.jpg" style="max-width: 400px;">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block" width="100%" src="./resources/carousel/3.jpg" style="max-width: 400px;">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block" width="100%" src="./resources/carousel/4.jpg" style="max-width: 400px;">
+							</div>
+							</div>
+						</div>
+					</center>
+				</div>
+				<div class="col-sm" style="max-width: 550px;">
+					<center>
+						<div id="myCarousel" class="carousel" data-ride="carousel" data-interval="false">
+							<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>
+							<li data-target="#myCarousel" data-slide-to="3"></li>
+							</ol>
+							<div class="carousel-inner">
+							<div class="carousel-item active" >
+								<img class="d-block" src="./resources/carousel/1.jpg" style="max-width: 400px;">
+								<div class="carousel-caption d-none d-md-block">
+									<h5>Images can also have title</h5>
+									<p>and also text!</p>
+								  </div>
+							</div>
+							<div class="carousel-item">
+								<img class="d-block" src="./resources/carousel/2.jpg" style="max-width: 400px;">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block" src="./resources/carousel/3.jpg" style="max-width: 400px;">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block" src="./resources/carousel/4.jpg" style="max-width: 400px;">
+							</div>
+							</div>
+							<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+								<i class="fa-solid fa-circle-left fa-2xl left-arrow"></i>
+							<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+								<i class="fa-solid fa-circle-right fa-2xl right-arrow"></i>
+							<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</center>
+				</div>
+			</div>
+		</div>
+
+		<hr id="audio">
+		<center><h1 style="margin-top: 65px;">Some Audio Files Demonstrating Your Paper</h1></center>
+		<p>The above can also also be applied for different content sources, as audio</p>
+		<center>
+			<div class="container">
+				<div class="row justify-content-md-center">
+					<div class="col-sm">
+						<audio controls id="dropdown_audio">
+							<source src="./resources/audio/audio1.mp4" type="audio/mp4">
+						  </audio>
+						<div class="btn-group my-btn" id="myAudioDropdown">
+							<button type="button" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio1.mp4'" class="btn btn-success">Dropdown</button>
+							<button type="button" class="btn my-btn-success btn-success dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+								<span class="visually-hidden">Toggle Dropdown</span>
+							</button>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio2.mp4'">2</a></li>
+								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio3.mp4'">3</a></li>
+								<li><hr class="dropdown-divider"></li> 
+								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_audio').src='./resources/audio/audio1.mp4'">1</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm" style="max-width: 550px;">
+							<center>
+								<div id="myAudioCarousel" class="carousel" data-ride="carousel" data-interval="false">
+									<ol class="carousel-indicators audio-carousel-indicators">
+									<li data-target="#myAudioCarousel" data-slide-to="0" class="active"></li>
+									<li data-target="#myAudioCarousel" data-slide-to="1"></li>
+									<li data-target="#myAudioCarousel" data-slide-to="2"></li>
+									</ol>
+									<div class="carousel-inner">
+									<div class="carousel-item active" >
+										<audio controls>
+											<source src="./resources/audio/audio1.mp4" type="audio/mp4">
+										  </audio>
+										  <div class="position-relative text-center">
+											text describing the audio file
+										  </div>
+									</div>
+									<div class="carousel-item">
+										<audio controls>
+											<source src="./resources/audio/audio2.mp4" type="audio/mp4">
+										  </audio>
+										  <div class="position-relative text-center">
+											which changes	
+										  </div>
+									</div>
+									<div class="carousel-item">
+										<audio controls>
+											<source src="./resources/audio/audio3.mp4" type="audio/mp4">
+										  </audio>
+										  <div class="position-relative text-center">
+											on click	
+										  </div>
+									</div>
+									</div>
+									<a class="carousel-control-prev" href="#myAudioCarousel" role="button" data-slide="prev">
+										<i class="fa-solid fa-circle-left fa-2xl left-arrow"></i>
+									<span class="sr-only">Previous</span>
+									</a>
+									<a class="carousel-control-next" href="#myAudioCarousel" role="button" data-slide="next">
+										<i class="fa-solid fa-circle-right fa-2xl right-arrow"></i>
+									<span class="sr-only">Next</span>
+									</a>
+								</div>
+							</center>
+					</div>
+					</div>
+
+			</div>
+			</center>
+		<br>
+		
+		<hr id="video">
+		<center><h1 style="margin-top: 65px;">Some Video Demonstrating Your Paper</h1></center>
+		<p>or video</p>
+		<center>
+			<div class="container">
+				<div class="row justify-content-md-center">
+					<div class="col-sm">
+						<video controls id="dropdown_video">
+							<source src="./resources/video/video1.mp4" type="video/mp4">
+							</video>
+						<div class="btn-group my-btn" id="myVideoDropdown">
+							<button type="button" onclick="document.getElementById('dropdown_video').src='./resources/video/video1.mp4'" class="btn btn-success">Dropdown</button>
+							<button type="button" class="btn my-btn-success btn-success dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+								<span class="visually-hidden">Toggle Dropdown</span>
+							</button>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_video').src='./resources/video/video2.mp4'">2</a></li>
+								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_video').src='./resources/video/video3.mp4'">3</a></li>
+								<li><hr class="dropdown-divider"></li> 
+								<li><a class="dropdown-item" onclick="document.getElementById('dropdown_video').src='./resources/video/video1.mp4'">1</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm" style="max-width: 550px;">
+							<center>
+								<div id="myVideoCarousel" class="carousel" data-ride="carousel" data-interval="false">
+									<ol class="carousel-indicators audio-carousel-indicators">
+									<li data-target="#myVideoCarousel" data-slide-to="0" class="active"></li>
+									<li data-target="#myVideoCarousel" data-slide-to="1"></li>
+									<li data-target="#myVideoCarousel" data-slide-to="2"></li>
+									</ol>
+									<div class="carousel-inner">
+									<div class="carousel-item active" >
+										<video controls id="dropdown_video">
+											<source src="./resources/video/video1.mp4" type="video/mp4">
+											</video>
+											<div class="carousel-caption d-none d-md-block">
+												<h5 class="text-success">Videos can also have title</h5>
+												<p class="text-success">and text!</p>
+											  </div>
+									</div>
+									<div class="carousel-item">
+										<video controls id="dropdown_video">
+											<source src="./resources/video/video2.mp4" type="video/mp4">
+											</video>
+									</div>
+									<div class="carousel-item">
+										<video controls id="dropdown_video">
+											<source src="./resources/video/video3.mp4" type="video/mp4">
+											</video>
+									</div>
+									</div>
+									<a class="carousel-control-prev" href="#myVideoCarousel" role="button" data-slide="prev">
+										<i class="fa-solid fa-circle-left fa-2xl left-arrow"></i>
+									<span class="sr-only">Previous</span>
+									</a>
+									<a class="carousel-control-next" href="#myVideoCarousel" role="button" data-slide="next">
+										<i class="fa-solid fa-circle-right fa-2xl right-arrow"></i>
+									<span class="sr-only">Next</span>
+									</a>
+								</div>
+							</center>
+					</div>
+					</div>
+
+			</div>
+			</center>
+	
+
+		<br>
+		<hr id="paper">
+
+		<!-- paper -->
+		<div class="container">
+			<center><h1 style="margin-top: 65px;">Paper</h1></center>
+			<div class="row justify-content-md-center">
+				<div class="col-md-auto" style="padding: 1px;">
+					<a href='resources/paper.pdf' target="_blank" rel="noopener noreferrer">
+						<img alt="" class="layered-paper-big" style="height:100%; max-height: 175px;" src="./resources/paper.png"/>
+					</a>
+				</div>
+				<div class="col-md-auto" style="padding: 1px;">
+					<p style="font-size:14pt; margin-top: 5px;"><strong>Paper Name</strong><br>
+						Author 1, Author 2, Author 3, Author 4.<br>
+						<a href='https://arxiv.org' target="_blank" rel="noopener noreferrer">[<i class="ai ai-arxiv"></i> Arxiv]</a>
+						<a href='resources/paper.pdf' target="_blank" rel="noopener noreferrer">[<i class="fas fa-file-pdf"></i> Paper]</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<p class="section" id="bibtex"><b>Bibtex</b></p>
+		<table border="0">
+		<tbody>
+			<pre class="command-copy" 
+			style=" display: block;
+					background: #eee;
+					white-space: pre;
+					-webkit-overflow-scrolling: touch;
+					max-width: 100%;
+					min-width: 100px;
+					border-radius: 20px;
+					padding: 0;;">
+
+				bibtex format of your paper 
+			</pre>
+		</tbody>
+		</table>
+
+		<div class="container">
+			<p class="text-left">
+				More results, comparison to other methods and further discussion about our model can be found in the <a href="resources/supp.pdf" target="_blank" rel="noopener noreferrer">supplementary material</a>.<br>
+				Our official code implementation can be found in the official <a href="https://github.com" target="_blank" rel="noopener noreferrer">github repository</a>.
+			</p>
+		</div>
+
+		<center>
+			<table class="table" width="1" style="max-width: 400px;">
+				<tbody>
+					<tr>
+						<td width="50%" style="text-align: center;">
+							<a target="_blank" rel="noopener noreferrer" href="resources/supp.pdf" style="color:black !important;">
+								<img alt="" id="supp" class="round" width="100%" style="max-width:150px" border="1px solid" src="./resources/supp.png"/>
+							</a>
+						</td>
+						<td width="50%" style="text-align: center;">
+							<a href="https://github.com" target="_blank" rel="noopener noreferrer">
+								<img alt="" id="github_logo" class="round" width="100%" style="max-width:150px" src="./resources/github_logo.png"/>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td style="font-size:14pt; text-align: center;">
+							<a href='resources/supp.pdf' target="_blank" rel="noopener noreferrer">[Supplementary]</a>
+						</td>
+						<td style="font-size:14pt; text-align: center;">
+							<a target="_blank" rel="noopener noreferrer" href='https://github.com'>[Code]</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</center>
+
+		<hr>
+		<br>
+
+		<!-- acknowledgement -->
+		<div class="container">
+			<center><h3>Acknowledgements</h3></center>
+			<p style="font-size: 11pt;">
+				This webpage was originally made by <a href="https://www.linkedin.com/in/matan-kleiner/" target="_blank" rel="noopener noreferrer">Matan Kleiner</a> with the 
+				help of <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/hilamanor/">Hila Manor</a> 
+				for <a target="_blank" rel="noopener noreferrer" href=https://matankleiner.github.io/sinddm/">SinDDM</a> and can be used as a template.<br>
+				It is inspired by the template that was originally made by <a target="_blank" rel="noopener noreferrer" href="http://web.mit.edu/phillipi/">Phillip Isola</a> and
+				<a target="_blank" rel="noopener noreferrer" href="http://richzhang.github.io/">Richard Zhang</a> for a <a target="_blank" rel="noopener noreferrer" href="http://richzhang.github.io/colorization/">colorful</a> ECCV project;
+				the code for the original template can be found <a target="_blank" rel="noopener noreferrer" href="https://github.com/richzhang/webpage-template">here</a>.<br>
+				A lot of features are taken from <a target="_blank" rel="noopener noreferrer" href="https://getbootstrap.com/">bootstrap</a>. All icons are taken from <a target="_blank" rel="noopener noreferrer" href="https://fontawesome.com/">font awesome</a>.
+				<br>
+				The images in this webpage are all generated by either DALL-E 2 or Stable Diffusion 2.1 Demo. The audio files are all generated by AudioLDM. The video files are all generated by Text2Video-Zero.
+				</a>
+			</p>
+		</div>
+	<br>
+
+</div>
+
+<!-- js scripts -->
+<script>
+	$(document).ready(function () {
+		$('#myDropdown .dropdown-menu').on({
+	"click":function(e){
+      e.stopPropagation();
+    }
+});
+$('.closer').on('click', function () {
+    $('.btn-group').removeClass('open');
+});
+
+});
+
+// up button
+//Get the button
+let mybutton = document.getElementById("btn-back-to-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", backToTop);
+
+function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+

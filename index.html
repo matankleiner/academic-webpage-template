@@ -351,7 +351,7 @@
 			<div class="container">
 				<div class="row justify-content-md-center">
 					<!-- video dropdown -->
-					<div class="col-sm">
+					<div class="col-sm" style="max-width: 550px;">
 						<video controls id="dropdown_video">
 							<source src="./resources/video/video1.mp4" type="video/mp4">
 							</video>
@@ -368,50 +368,52 @@
 							</ul>
 						</div>
 					</div>
-					<!-- end video dropdown -->
-					<!-- video carousel -->
-					<div class="col-sm" style="max-width: 550px;">
-							<center>
-								<div id="myVideoCarousel" class="carousel" data-ride="carousel" data-interval="false">
-									<ol class="carousel-indicators audio-carousel-indicators">
-									<li data-target="#myVideoCarousel" data-slide-to="0" class="active"></li>
-									<li data-target="#myVideoCarousel" data-slide-to="1"></li>
-									<li data-target="#myVideoCarousel" data-slide-to="2"></li>
-									</ol>
-									<div class="carousel-inner">
-									<div class="carousel-item active" >
-										<video controls id="dropdown_video">
-											<source src="./resources/video/video1.mp4" type="video/mp4">
-											</video>
-											<div class="carousel-caption d-none d-md-block">
-												<h5 class="text-info">Videos can also have title</h5>
-												<p class="text-info">and text!</p>
-											  </div>
-									</div>
-									<div class="carousel-item">
-										<video controls id="dropdown_video">
-											<source src="./resources/video/video2.mp4" type="video/mp4">
-											</video>
-									</div>
-									<div class="carousel-item">
-										<video controls id="dropdown_video">
-											<source src="./resources/video/video3.mp4" type="video/mp4">
-											</video>
-									</div>
-									</div>
-									<a class="carousel-control-prev" href="#myVideoCarousel" role="button" data-slide="prev">
-										<i class="fa-solid fa-circle-left fa-2xl left-arrow"></i>
-									<span class="sr-only">Previous</span>
-									</a>
-									<a class="carousel-control-next" href="#myVideoCarousel" role="button" data-slide="next">
-										<i class="fa-solid fa-circle-right fa-2xl right-arrow"></i>
-									<span class="sr-only">Next</span>
-									</a>
+				</div>
+				<!-- end video dropdown -->
+
+				<!-- video carousel -->
+				<div class="row justify-content-md-center" style="margin-top: 25px;">
+					<div class="col-sm" style="max-width: 750px;">
+						<center>
+							<div id="myVideoCarousel" class="carousel" data-ride="carousel" data-interval="false">
+								<ol class="carousel-indicators audio-carousel-indicators">
+								<li data-target="#myVideoCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#myVideoCarousel" data-slide-to="1"></li>
+								<li data-target="#myVideoCarousel" data-slide-to="2"></li>
+								</ol>
+								<div class="carousel-inner">
+								<div class="carousel-item active" >
+									<video controls id="dropdown_video">
+										<source src="./resources/video/video1.mp4" type="video/mp4">
+										</video>
+										<div class="position-relative text-center">
+											<p class="text-info">text describing the video</p>
+										  </div>
 								</div>
-							</center>
-					</div>
-					<!-- end video carousel -->
-					</div>
+								<div class="carousel-item">
+									<video controls id="dropdown_video">
+										<source src="./resources/video/video2.mp4" type="video/mp4">
+										</video>
+								</div>
+								<div class="carousel-item">
+									<video controls id="dropdown_video">
+										<source src="./resources/video/video3.mp4" type="video/mp4">
+										</video>
+								</div>
+								</div>
+								<a class="carousel-control-prev" href="#myVideoCarousel" role="button" data-slide="prev">
+									<i class="fa-solid fa-circle-left fa-2xl left-arrow"></i>
+								<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#myVideoCarousel" role="button" data-slide="next">
+									<i class="fa-solid fa-circle-right fa-2xl right-arrow"></i>
+								<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</center>
+					</div>	
+				</div>
+				<!-- end video carousel -->
 			</div>
 			</center>
 		<br>

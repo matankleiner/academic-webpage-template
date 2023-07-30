@@ -12,9 +12,10 @@ Examples of website using this template:
 ### Usage 
 
 To use this template, clone the repo: 
-`
+```
 git clone https://github.com/matankleiner/academic-webpage-template.git
-`
+```
+Follow the instruction in [github pages](https://pages.github.com/) to create your own webpage. 
 
 This academic webpage template include the following components: 
 * Navigation bar

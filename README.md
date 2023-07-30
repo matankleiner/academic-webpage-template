@@ -2,6 +2,8 @@
  
 This is a webpage template for academic papers. It was originally made for the [SinDDM](https://matankleiner.github.io/sinddm/) project page by [Matan Kleiner](https://www.linkedin.com/in/matan-kleiner/) with help from [Hila Manor](https://www.linkedin.com/in/hilamanor/). This template is a more general version that built in mind for the usage of other people. 
 
+See an examle of this academic webpage template [here.](https://matankleiner.github.io/academic-webpage-template/)
+
 Examples of website using this template: 
 * https://matankleiner.github.io/sinddm/
 * https://inbarhub.github.io/DDPM_inversion/

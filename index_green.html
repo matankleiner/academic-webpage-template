@@ -2,19 +2,19 @@
 
 <!doctype html>
 <html>
-<head>
-	<title>Webpage Template</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  	<link href="style_green.css" rel="stylesheet" type="text/css">
-	<meta property="og:image" content="resources/teaser.png"/> 
-	<meta property="og:title" content="Webpage Template" />
-	<meta property="og:description" content="Paper description." />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-	<script src="https://kit.fontawesome.com/ad96f96272.js" crossorigin="anonymous"></script>
-</head>
+	<head>
+		<title>Academic Webpage Template</title>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+		  <link href="style_green.css" rel="stylesheet" type="text/css">
+		<meta property="og:image" content="resources/teaser.png"/> 
+		<meta property="og:title" content="Academic Webpage Template" />
+		<meta property="og:description" content="a webpage template for academic projects" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+		<script src="https://kit.fontawesome.com/ad96f96272.js" crossorigin="anonymous"></script>
+	</head>
 
 <body>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -37,12 +37,14 @@
 			</div> 
 		</div> 
 		</nav>
+	<!-- end nav bar -->
 
 	<div class="container-xl"> 
 		<!-- top button -->
 		<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
 			<i class="fas fa-arrow-up"></i>
 		</button>
+		<!-- end top button -->
 
 		<!-- top - author names, affiliation and links -->
 		<center>
@@ -81,6 +83,7 @@
 				</div>
 			</div>
 		</center>
+		<!-- end top -->
 
 		<!-- abstract and teaser image-->
 		<center>
@@ -97,8 +100,9 @@
 		<p>
 			An abstract which describe the paper's contributions and importance in few short sentences. 
 		</p>
+		<!-- end abstract and teaser image-->
 
-		<!-- video of a talk about your paper -->
+		<!-- video of a talk about your paper (youtube embedding) -->
 		<center><h1>Talk</h1></center>
 		<p align="center">
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/ly36kn0ug4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>		</p>
@@ -106,9 +110,9 @@
 		<!-- Images -->
 		<hr id="images">
 		<center><h1 style="margin-top: 65px;">Some Images Demonstrating Your Paper</h1></center>
-		<!-- text guided style with retarget-->
 		<p>Some explanation about the displayed images.<br>They can either be static</p>
 		
+		<!-- static images -->
 		<center>
 			<div class="container">
 				<div class="row justify-content-md-center">
@@ -121,6 +125,7 @@
 				</div>
 			</div>
 		</center>
+		<!-- end static images -->
 
 		<!-- Images with drop down menu -->
 		<div class="container">
@@ -183,6 +188,7 @@
 				</div>
 		</div>
 		</center>
+		<!-- end images with dropdown menu -->
 
 		<!-- image carousel -->
 		<div class="container">
@@ -192,6 +198,7 @@
 		</div>
 		<div class="container">
 			<div class="row justify-content-md-center">
+				<!-- automatically fade -->
 				<div class="col-sm" style="max-width: 550px;">
 					<center>
 						<div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -212,6 +219,8 @@
 						</div>
 					</center>
 				</div>
+				<!-- end automatically fade -->
+				<!-- arrows carousel -->
 				<div class="col-sm" style="max-width: 550px;">
 					<center>
 						<div id="myCarousel" class="carousel" data-ride="carousel" data-interval="false">
@@ -250,15 +259,19 @@
 						</div>
 					</center>
 				</div>
+				<!-- end arrows carousel -->
 			</div>
 		</div>
+		<!-- end Images -->
 
+		<!-- Audio -->
 		<hr id="audio">
 		<center><h1 style="margin-top: 65px;">Some Audio Files Demonstrating Your Paper</h1></center>
 		<p>The above can also also be applied for different content sources, as audio</p>
 		<center>
 			<div class="container">
 				<div class="row justify-content-md-center">
+					<!-- dropdown audio -->
 					<div class="col-sm">
 						<audio controls id="dropdown_audio">
 							<source src="./resources/audio/audio1.mp4" type="audio/mp4">
@@ -276,6 +289,8 @@
 							</ul>
 						</div>
 					</div>
+					<!-- end dropdown audio -->
+					<!-- audio carousel -->
 					<div class="col-sm" style="max-width: 550px;">
 							<center>
 								<div id="myAudioCarousel" class="carousel" data-ride="carousel" data-interval="false">
@@ -321,18 +336,21 @@
 								</div>
 							</center>
 					</div>
+					<!-- end audio carousel -->
 					</div>
-
 			</div>
 			</center>
 		<br>
-		
+		<!-- end Audio -->
+
+		<!-- Video -->
 		<hr id="video">
 		<center><h1 style="margin-top: 65px;">Some Video Demonstrating Your Paper</h1></center>
 		<p>or video</p>
 		<center>
 			<div class="container">
 				<div class="row justify-content-md-center">
+					<!-- video dropdown -->
 					<div class="col-sm">
 						<video controls id="dropdown_video">
 							<source src="./resources/video/video1.mp4" type="video/mp4">
@@ -350,6 +368,8 @@
 							</ul>
 						</div>
 					</div>
+					<!-- end video dropdown -->
+					<!-- video carousel -->
 					<div class="col-sm" style="max-width: 550px;">
 							<center>
 								<div id="myVideoCarousel" class="carousel" data-ride="carousel" data-interval="false">
@@ -390,16 +410,15 @@
 								</div>
 							</center>
 					</div>
+					<!-- end video carousel -->
 					</div>
-
 			</div>
 			</center>
-	
-
 		<br>
-		<hr id="paper">
+		<!-- end Video -->
 
-		<!-- paper -->
+		<!-- Paper -->
+		<hr id="paper">
 		<div class="container">
 			<center><h1 style="margin-top: 65px;">Paper</h1></center>
 			<div class="row justify-content-md-center">
@@ -418,6 +437,7 @@
 			</div>
 		</div>
 
+		<!-- bibtex citation -->
 		<p class="section" id="bibtex"><b>Bibtex</b></p>
 		<table border="0">
 		<tbody>
@@ -435,6 +455,7 @@
 			</pre>
 		</tbody>
 		</table>
+		<!-- end bibtex citation -->
 
 		<div class="container">
 			<p class="text-left">
@@ -485,7 +506,7 @@
 				the code for the original template can be found <a target="_blank" rel="noopener noreferrer" href="https://github.com/richzhang/webpage-template">here</a>.<br>
 				A lot of features are taken from <a target="_blank" rel="noopener noreferrer" href="https://getbootstrap.com/">bootstrap</a>. All icons are taken from <a target="_blank" rel="noopener noreferrer" href="https://fontawesome.com/">font awesome</a>.
 				<br>
-				The images in this webpage are all generated by either DALL-E 2 or Stable Diffusion 2.1 Demo. The audio files are all generated by AudioLDM. The video files are all generated by Text2Video-Zero.
+				The images in this webpage are all generated by either DALL-E 2 or Stable Diffusion 2.1 Demo. The audio files are all generated by AudioLDM Demo and the video files are all generated by Text2Video-Zero.
 				</a>
 			</p>
 		</div>

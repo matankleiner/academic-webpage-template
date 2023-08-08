@@ -164,3 +164,24 @@ td {
 .audio-carousel-caption{
     top: 100% !important;
 }
+
+.custom-range::-webkit-slider-thumb {
+    background-color: #62dbff !important;
+  }
+
+.custom-range2 {
+    accent-color: #62dbff !important;
+  }
+
+  .range-slider {
+    position: relative;
+  }
+  
+  .range-ticks {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: column;
+    writing-mode: vertical-lr;
+  }
+  

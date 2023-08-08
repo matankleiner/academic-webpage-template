@@ -160,3 +160,24 @@ td {
 .audio-carousel-indicators{
     bottom: -30 !important;
 }
+
+.custom-range::-webkit-slider-thumb {
+    background-color: #1fa165 !important;
+  }
+
+.custom-range2 {
+    accent-color: #1fa165 !important;
+  }
+
+  .range-slider {
+    position: relative;
+  }
+  
+  .range-ticks {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: column;
+    writing-mode: vertical-lr;
+  }
+  

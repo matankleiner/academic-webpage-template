@@ -260,6 +260,43 @@
 					</center>
 				</div>
 				<!-- end arrows carousel -->
+				<!-- image slider -->
+				<div class="container">
+					<p  style="margin-top: 35px;">
+					Images can also be changes using an image slider 
+					</p>
+				</div>
+				<div class="container">
+					<div class="row justify-content-md-center">
+						<div class="col-sm" style="max-width: 350px;">
+							<center>
+							<img src="./resources/dropdown/dropdown3/1.png" id="imgChange" style="max-width: 300px;">
+							<p id="txtChange" style="margin-top: 5px;">First Image</p>
+							<input type="range" min="1" max="4" step="1" value="1" class="form-range custom-range" id="myRange" style="max-width: 300px;">
+							</center>
+						</div>
+						<div class="col-sm" style="max-width: 350px;">
+							<center>
+							<div class="range-slider">
+								<img src="./resources/dropdown/dropdown2/1.png" id="imgChange2" style="max-width: 300px;">
+								<input type="range" min="1" max="4" step="1" value="1" class="custom-range2" id="myRange2" style="width: 300px; margin-top: 5px;" list="values">
+								<datalist id="values">
+									<option value="1"></option>
+									<option value="2"></option>
+									<option value="3"></option>
+									<option value="4"></option>
+								</datalist>
+								<div class="range-ticks" style="width: 300px;">
+									<span>First Image</span>
+									<span>Second Image</span>
+									<span>Third Image</span>
+									<span>Fourth Image</span>
+								</div>
+							</div>
+							</center>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<!-- end Images -->
@@ -556,6 +593,56 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+// image slider
+const myRange = document.querySelector('#myRange')
+const txtchange = document.querySelector('#txtChange')
+const imgchange = document.querySelector('#imgChange')
+const texts = [
+	'First Image', 
+	'Second Image', 
+	'Third Image', 
+	'Fourth Image'
+]
+const sources = [
+"./resources/dropdown/dropdown3/1.png",
+"./resources/dropdown/dropdown3/2.png",
+"./resources/dropdown/dropdown3/3.png",
+"./resources/dropdown/dropdown3/4.png",
+]
+
+function updateImagesAndText() {
+	txtchange.textContent = texts[myRange.value - 1];
+	imgchange.src = sources[myRange.value - 1];
+}
+
+myRange.addEventListener('input', () => {
+	txtchange.textContent = texts[myRange.value - 1];
+	imgchange.src = sources[myRange.value - 1];
+});
+
+
+const myRange2 = document.querySelector('#myRange2')
+const imgchange2 = document.querySelector('#imgChange2')
+const sources2 = [
+"./resources/dropdown/dropdown2/1.png",
+"./resources/dropdown/dropdown2/2.png",
+"./resources/dropdown/dropdown2/3.png",
+"./resources/dropdown/dropdown2/4.png",
+]
+
+function updateImages2() {
+	imgchange2.src = sources2[myRange2.value - 1];
+}
+
+myRange2.addEventListener('input', () => {
+	imgchange2.src = sources2[myRange2.value - 1];
+});
+
+window.addEventListener('load', () => {
+	updateImagesAndText();
+	updateImages2();
+});
 
 
 </script>

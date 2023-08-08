@@ -23,12 +23,13 @@ This academic webpage template include the following components:
 * Top button
 * Dropdown menu for images, audio and video files
 * Carousel for images, audio and video files
+* Image Slider
 * Youtube embedding 
 * Paper section with bibtex style citation and paper image
 
 #### Change Style and Functionality
 This academic webpage template include several components and functionality you might not need, comment them out or delete them from the `index.html` file.
-The style of the webpage is mainly set in the `style.css` file. It includes, among others font sizes, colors and position. However, not all style options are set in the `style.css` file, font sizes and position are sometime set in the `index.html` file and some styles and functionality are set as a bootstrap class.  
+The style of the webpage is mainly set in the `style.css` file. It includes, among others, font sizes, colors and position. However, not all style options are set in the `style.css` file, font sizes and position are sometime set in the `index.html` file and some styles and functionality are set as a bootstrap class.  
 An example for the academic webpage template in green can be found in the `index_green.html` and `style_green.css` files. 
 Icons are taken from [font awesome](https://fontawesome.com/) or from [Academicons](https://jpswalsh.github.io/academicons/). For example, in order to change the [arrow up](https://fontawesome.com/icons/arrow-up?f=classic&s=solid) icon, use the font awesome interface. 
 

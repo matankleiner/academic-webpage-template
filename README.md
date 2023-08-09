@@ -23,7 +23,7 @@ This academic webpage template include the following components:
 * Top button
 * Dropdown menu for images, audio and video files
 * Carousel for images, audio and video files
-* Image Slider
+* Image slider
 * Youtube embedding 
 * Paper section with bibtex style citation and paper image
 

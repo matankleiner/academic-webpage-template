@@ -2,9 +2,9 @@
  
 This is a webpage template for academic papers. It was originally made for the [SinDDM](https://matankleiner.github.io/sinddm/) project page by [Matan Kleiner](https://www.linkedin.com/in/matan-kleiner/) with help from [Hila Manor](https://www.linkedin.com/in/hilamanor/). This template is a more general version that built in mind for the usage of other people. 
 
-See an examle of this academic webpage template [here.](https://matankleiner.github.io/academic-webpage-template/)
+See an example of this academic webpage template [here.](https://matankleiner.github.io/academic-webpage-template/)
 
-Examples of website using this template: 
+Examples of webpages using this template: 
 * https://matankleiner.github.io/sinddm/
 * https://inbarhub.github.io/DDPM_inversion/
 
@@ -16,7 +16,7 @@ To use this template, clone the repo:
 ```
 git clone https://github.com/matankleiner/academic-webpage-template.git
 ```
-Follow the instruction in [github pages](https://pages.github.com/) to create your own webpage. 
+and follow the instruction in [github pages](https://pages.github.com/) to create your own webpage. 
 
 This academic webpage template include the following components: 
 * Navigation bar
@@ -33,8 +33,10 @@ The style of the webpage is mainly set in the `style.css` file. It includes, amo
 An example for the academic webpage template in green can be found in the `index_green.html` and `style_green.css` files. 
 Icons are taken from [font awesome](https://fontawesome.com/) or from [Academicons](https://jpswalsh.github.io/academicons/). For example, in order to change the [arrow up](https://fontawesome.com/icons/arrow-up?f=classic&s=solid) icon, use the font awesome interface. 
 
+For the paper image, use an online pdf to png convertor, as this [one](https://pdf2png.com/).
+
 #### Bootstrap  
-This webpage template is mainly built using [bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/). Bootstrap is a free open source framework that enable easy web development. Bootstrap class effect the style and functionality of different features. The [navigation bar](https://getbootstrap.com/docs/5.0/components/navbar/), [dropdown](https://getbootstrap.com/docs/5.3/components/dropdowns/) and [carousel](https://getbootstrap.com/docs/5.3/components/carousel/) components style and functionality set by bootstrap. Another helpful option provided by bootstrap is the [grid system](https://getbootstrap.com/docs/5.3/layout/grid/).
+This webpage template is mainly built using [bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/). Bootstrap is a free open source framework that enable easy web development. Bootstrap class effect the style and functionality of different features. The [navigation bar](https://getbootstrap.com/docs/5.0/components/navbar/), [dropdown](https://getbootstrap.com/docs/5.3/components/dropdowns/), [carousel](https://getbootstrap.com/docs/5.3/components/carousel/) and [range](https://getbootstrap.com/docs/5.0/forms/range/) (for image slider) components style and functionality set by bootstrap. Another helpful option provided by bootstrap is the [grid system](https://getbootstrap.com/docs/5.3/layout/grid/).
 
 ### Acknowledgments 
 

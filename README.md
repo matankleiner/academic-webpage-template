@@ -29,9 +29,22 @@ This academic webpage template include the following components:
 * Paper section with bibtex style citation and paper image
 
 #### Change Style and Functionality
-This academic webpage template include several components and functionality you might not need, comment them out or delete them from the `index.html` file.
-The style of the webpage is mainly set in the `style.css` file. It includes, among others, font sizes, colors and position. However, not all style options are set in the `style.css` file, font sizes and position are sometime set in the `index.html` file and some styles and functionality are set as a bootstrap class.  
+This academic webpage template include several components and functionality you might not need, comment them out or delete them from the `index.html` file. The `index.html` has a section of javascript that control the functionality of some components. 
+The style of the webpage is mainly set in the `style.css` file. It includes, among others, font sizes, colors and position. However, not all style options are set in the `style.css` file, font sizes and position are sometime set in the `index.html` file and some styles and functionality are set as a bootstrap class. 
+
+Each component style and functionality is controlled via: 
+| Navigation bar  | bootstrap  |
+| Top button | js  |
+| Dropdown  | bootstrap, js, css  |
+| Carousel  | bootstrap, css  |
+| Slider  | bootstrap, js, css  |
+| Overlay  | css  |
+| Paper section  | css  |
+| Text  | bootstrap, css  |
+| Color  | bootstrap, css  |
+
 An example for the academic webpage template in green can be found in the `index_green.html` and `style_green.css` files. 
+
 Icons are taken from [font awesome](https://fontawesome.com/) or from [Academicons](https://jpswalsh.github.io/academicons/). For example, in order to change the [arrow up](https://fontawesome.com/icons/arrow-up?f=classic&s=solid) icon, use the font awesome interface. 
 
 For the paper image, use an online pdf to png convertor, as this [one](https://pdf2png.com/).

@@ -141,6 +141,7 @@ td {
     box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
 }
 
+/* carousel */
 .carousel-indicators li {
     width: 12px;
     height: 12px;
@@ -160,6 +161,8 @@ td {
 .audio-carousel-indicators{
     bottom: -30 !important;
 }
+
+/* slider */
 
 .custom-range::-webkit-slider-thumb {
     background-color: #1fa165 !important;
@@ -181,3 +184,49 @@ td {
     writing-mode: vertical-lr;
   }
   
+   /* overlay */
+  .overlay-container {
+    position: relative;
+  }
+  
+  .overlay-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+  }
+  
+  .overlay-image-2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+  }
+
+  .overlay-container:hover .overlay-image {
+    opacity: 1;
+  }
+
+  .overlay-container:hover .overlay-image-2 {
+    opacity: 1;
+  }
+  
+  .overlay-video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+  }
+
+  .overlay-container:hover .overlay-video {
+    opacity: 1;
+  }

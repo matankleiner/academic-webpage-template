@@ -260,45 +260,80 @@
 					</center>
 				</div>
 				<!-- end arrows carousel -->
-				<!-- image slider -->
-				<div class="container">
-					<p  style="margin-top: 35px;">
-					Images can also be changes using an image slider 
-					</p>
+			</div>
+		</div>
+		<!-- end image carousel -->
+		<!-- image slider -->
+		<div class="container">
+			<p  style="margin-top: 35px;">
+			Images can also be changes using an image slider 
+			</p>
+		</div>
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-sm" style="max-width: 350px;">
+					<center>
+					<img src="./resources/dropdown/dropdown3/1.png" id="imgChange" style="max-width: 300px;">
+					<p id="txtChange" style="margin-top: 5px;">First Image</p>
+					<input type="range" min="1" max="4" step="1" value="1" class="form-range custom-range" id="myRange" style="max-width: 300px;">
+					</center>
 				</div>
-				<div class="container">
-					<div class="row justify-content-md-center">
-						<div class="col-sm" style="max-width: 350px;">
-							<center>
-							<img src="./resources/dropdown/dropdown3/1.png" id="imgChange" style="max-width: 300px;">
-							<p id="txtChange" style="margin-top: 5px;">First Image</p>
-							<input type="range" min="1" max="4" step="1" value="1" class="form-range custom-range" id="myRange" style="max-width: 300px;">
-							</center>
-						</div>
-						<div class="col-sm" style="max-width: 350px;">
-							<center>
-							<div class="range-slider">
-								<img src="./resources/dropdown/dropdown2/1.png" id="imgChange2" style="max-width: 300px;">
-								<input type="range" min="1" max="4" step="1" value="1" class="custom-range2" id="myRange2" style="width: 300px; margin-top: 5px;" list="values">
-								<datalist id="values">
-									<option value="1"></option>
-									<option value="2"></option>
-									<option value="3"></option>
-									<option value="4"></option>
-								</datalist>
-								<div class="range-ticks" style="width: 300px;">
-									<span>First Image</span>
-									<span>Second Image</span>
-									<span>Third Image</span>
-									<span>Fourth Image</span>
-								</div>
-							</div>
-							</center>
+				<div class="col-sm" style="max-width: 350px;">
+					<center>
+					<div class="range-slider">
+						<img src="./resources/dropdown/dropdown2/1.png" id="imgChange2" style="max-width: 300px;">
+						<input type="range" min="1" max="4" step="1" value="1" class="custom-range2" id="myRange2" style="width: 300px; margin-top: 5px;" list="values">
+						<datalist id="values">
+							<option value="1"></option>
+							<option value="2"></option>
+							<option value="3"></option>
+							<option value="4"></option>
+						</datalist>
+						<div class="range-ticks" style="width: 300px;">
+							<span>First Image</span>
+							<span>Second Image</span>
+							<span>Third Image</span>
+							<span>Fourth Image</span>
 						</div>
 					</div>
+					</center>
 				</div>
 			</div>
 		</div>
+		<!-- end image slider -->
+				<!-- image overlay -->
+				<div class="container">
+					<p  style="margin-top: 35px;">
+					One can also using image overlay to show how an image is looked after editing  
+					</p>
+				</div>
+				<div class="container" style="margin-bottom: 70px;">
+					<div class="row justify-content-md-center">
+						<div class="col-sm" style="max-width: 350px;">
+							<center>
+								<div class="overlay-container">
+									<img src="./resources/dropdown/dropdown2/1.png" style="max-width: 300px;">
+									<div class="overlay-image">
+									  <img src="./resources/dropdown/dropdown2/2.png" style="max-width: 300px;">
+									  <p class="text-success">text describing the image</p>
+									</div>
+								  </div>	
+							</center>
+						</div>
+						<div class="col-sm" style="max-width: 350px;">
+							<center>
+								<div class="overlay-container">
+									<img src="./resources/dropdown/dropdown2/3.png" style="max-width: 300px;">
+									<div class="overlay-image-2">
+									  <img src="./resources/dropdown/dropdown2/4.png" style="max-width: 300px; opacity: 0.5 !important;">
+									  <p class="text-success" style="opacity: 1 !important;">this overlay image has opacity smaller than 1</p>
+									</div>
+								  </div>
+							</center>					  
+						</div>
+					</div>
+				</div>
+				<!-- end image overlay -->
 		<!-- end Images -->
 
 		<!-- Audio -->
@@ -431,11 +466,17 @@
 									<video controls id="dropdown_video">
 										<source src="./resources/video/video2.mp4" type="video/mp4">
 										</video>
+										<div class="position-relative text-center">
+											<p class="text-success">like the text prompt</p>
+										  </div>
 								</div>
 								<div class="carousel-item">
 									<video controls id="dropdown_video">
 										<source src="./resources/video/video3.mp4" type="video/mp4">
 										</video>
+										<div class="position-relative text-center">
+											<p class="text-success">that created this video</p>
+										  </div>
 								</div>
 								</div>
 								<a class="carousel-control-prev" href="#myVideoCarousel" role="button" data-slide="prev">
@@ -451,6 +492,25 @@
 					</div>	
 				</div>
 				<!-- end video carousel -->
+				<!-- video overlay -->
+				<div class="row justify-content-md-center" style="margin-top: 50px;">
+					<div class="col-sm" style="max-width: 750px;">
+						<center>
+							<div class="overlay-container">
+								<video playsinline autoplay muted loop>
+									<source src="./resources/video/video3.mp4" type="video/mp4">
+								</video>
+								<div class="overlay-video">
+									<video playsinline autoplay muted loop>
+										<source src="./resources/video/video2.mp4" type="video/mp4">
+									</video>
+									<p class="text-success">a text describing the overlay video</p>
+								</div>
+							</div>	
+						</center>
+					</div>
+				</div>
+				<!-- end video overlay -->
 			</div>
 			</center>
 		<br>

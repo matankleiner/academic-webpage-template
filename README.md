@@ -33,6 +33,8 @@ This academic webpage template include several components and functionality you 
 The style of the webpage is mainly set in the `style.css` file. It includes, among others, font sizes, colors and position. However, not all style options are set in the `style.css` file, font sizes and position are sometime set in the `index.html` file and some styles and functionality are set as a bootstrap class. 
 
 Each component style and functionality is controlled via: 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | Navigation bar  | bootstrap  |
 | Top button | js  |
 | Dropdown  | bootstrap, js, css  |

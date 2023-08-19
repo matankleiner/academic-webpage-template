@@ -32,7 +32,7 @@ This academic webpage template include the following components:
 This academic webpage template include several components and functionality you might not need, comment them out or delete them from the `index.html` file. The `index.html` has a section of javascript that control the functionality of some components. 
 The style of the webpage is mainly set in the `style.css` file. It includes, among others, font sizes, colors and position. However, not all style options are set in the `style.css` file, font sizes and position are sometime set in the `index.html` file and some styles and functionality are set as a bootstrap class. 
 
-Each component style and functionality is controlled via: 
+Each component style and functionality is controlled in the following way: 
 | <!-- -->    | <!-- -->    |
 |-------------|-------------|
 | Navigation bar  | bootstrap  |

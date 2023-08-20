@@ -44,7 +44,7 @@ Each component style and functionality is controlled in the following way:
 | <!-- -->    | <!-- -->    |
 |-------------|-------------|
 | Navigation bar  | bootstrap  |
-| Top button | js  |
+| Scroll up button | js  |
 | Dropdown  | bootstrap, js, css  |
 | Carousel  | bootstrap, css  |
 | Slider  | bootstrap, js, css  |

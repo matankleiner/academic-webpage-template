@@ -1,7 +1,9 @@
-![Python 3.8.12](https://img.shields.io/badge/webpage-template-blue)
-[![Bootstrap](https://img.shields.io/badge/bootstrap5-purple?bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-![HTML5](https://img.shields.io/badge/html5-orange?html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-black?javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Python 3.8.12](https://img.shields.io/badge/webpage-template-green)
+![HTML5](https://img.shields.io/badge/html-orange?html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css-blue?css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-yellow?javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+[![Bootstrap](https://img.shields.io/badge/bootstrap-purple?bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+
  
 # Academic Webpage Template
  
@@ -25,7 +27,7 @@ and follow the instruction in [github pages](https://pages.github.com/) to creat
 
 This academic webpage template include the following components: 
 * Navigation bar
-* Top button
+* Scroll up button
 * Dropdown menu for images, audio and video files
 * Carousel for images, audio and video files
 * Image slider
@@ -34,7 +36,8 @@ This academic webpage template include the following components:
 * Paper section with bibtex style citation and paper image
 
 #### Change Style and Functionality
-This academic webpage template include several components and functionality you might not need, comment them out or delete them from the `index.html` file. The `index.html` has a section of javascript that control the functionality of some components. 
+This academic webpage template include several components and functionality you might not need, comment them out or delete them from the `index.html` file. 
+The functionality of some components is set in the `functionality.js` file (imported to `index.html`) while other is set via bootstrap class. 
 The style of the webpage is mainly set in the `style.css` file. It includes, among others, font sizes, colors and position. However, not all style options are set in the `style.css` file, font sizes and position are sometime set in the `index.html` file and some styles and functionality are set as a bootstrap class. 
 
 Each component style and functionality is controlled in the following way: 

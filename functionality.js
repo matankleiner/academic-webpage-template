@@ -39,53 +39,22 @@ $('.btn-group').removeClass('open');
 });
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ image slider ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-const myRange = document.querySelector('#myRange')
-const txtchange = document.querySelector('#txtChange')
-const imgchange = document.querySelector('#imgChange')
-const texts = [
-'First Image', 
-'Second Image', 
-'Third Image', 
-'Fourth Image'
-]
-const sources = [
-  "./resources/dropdown/dropdown3/1.png",
-  "./resources/dropdown/dropdown3/2.png",
-  "./resources/dropdown/dropdown3/3.png",
-  "./resources/dropdown/dropdown3/4.png",
-]
-
-function updateImagesAndText() {
-  txtchange.textContent = texts[myRange.value - 1];
-  imgchange.src = sources[myRange.value - 1];
-}
-
-myRange.addEventListener('input', () => {
-  txtchange.textContent = texts[myRange.value - 1];
-  imgchange.src = sources[myRange.value - 1];
+// event listener for changes to any range input elements on the page
+$('input[type=range]').on('input', function () {
+    console.log($(this)) 
+    // The ID of the range input is retrieved and used to determine the folder name
+    let current_input_id = $(this)[0].id;
+    let folder_name = current_input_id.substr(current_input_id.indexOf("-") + 1);
+    // The new value of the range input is retrieved.
+    let newValue = parseFloat($(this)[0].value);
+    swapVizImAndText(folder_name, newValue);
 });
 
-const myRange2 = document.querySelector('#myRange2')
-const imgchange2 = document.querySelector('#imgChange2')
-const sources2 = [
-  "./resources/dropdown/dropdown2/1.png",
-  "./resources/dropdown/dropdown2/2.png",
-  "./resources/dropdown/dropdown2/3.png",
-  "./resources/dropdown/dropdown2/4.png",
-]
-
-function updateImages2() {
-  imgchange2.src = sources2[myRange2.value - 1];
-}
-
-myRange2.addEventListener('input', () => {
-  imgchange2.src = sources2[myRange2.value - 1];
-});
-
-window.addEventListener('load', () => {
-updateImagesAndText();
-updateImages2();
-});
+function swapVizImAndText(folder_name, newValue) {
+    // Updates the src attribute of an image element and the inner HTML
+    $("#imgChange-" + folder_name)[0].src = "./resources/dropdown/" + folder_name + "/" + newValue + ".png";
+    $("#txtChange-" + folder_name)[0].innerHTML = "Image " + newValue;
+};
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ before and after image slider ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // // javascript code was taken from https://www.codehim.com/vanilla-javascript/before-after-image-slider-in-vanilla-javascript/

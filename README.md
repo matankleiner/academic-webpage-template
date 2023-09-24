@@ -14,6 +14,7 @@ See an example of this academic webpage template [here.](https://matankleiner.gi
 Examples of webpages using this template: 
 * https://matankleiner.github.io/sinddm/
 * https://inbarhub.github.io/DDPM_inversion/
+* https://hilamanor.github.io/GaussianDenoisingPosterior/
 
 Suggestion comments and improvements are highly welcome, open an issue or contact me.    
 

@@ -15,6 +15,7 @@ Examples of webpages using this template:
 * https://matankleiner.github.io/sinddm/
 * https://inbarhub.github.io/DDPM_inversion/
 * https://hilamanor.github.io/GaussianDenoisingPosterior/
+* https://noamelata.github.io/NestedDiffusion/
 
 Suggestion comments and improvements are highly welcome, open an issue or contact me.    
 

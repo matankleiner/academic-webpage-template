@@ -63,6 +63,8 @@ Icons are taken from [font awesome](https://fontawesome.com/) or from [Academico
 
 For the paper image, use an online pdf to png convertor, as this [one](https://pdf2png.com/).
 
+Change the default shortcut icon (part of the head) to your liking. Use `.svg` or `.ico` files and online [convertors](https://convertio.co/png-svg/) or [generators](https://www.favicon.cc/) to create them.
+
 #### Bootstrap  
 This webpage template is mainly built using [bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/). Bootstrap is a free open source framework that enable easy web development. Bootstrap class effect the style and functionality of different features. The [navigation bar](https://getbootstrap.com/docs/5.0/components/navbar/), [dropdown](https://getbootstrap.com/docs/5.3/components/dropdowns/), [carousel](https://getbootstrap.com/docs/5.3/components/carousel/) and [range](https://getbootstrap.com/docs/5.0/forms/range/) (for image slider) components style and functionality set by bootstrap. Another helpful option provided by bootstrap is the [grid system](https://getbootstrap.com/docs/5.3/layout/grid/).
 
